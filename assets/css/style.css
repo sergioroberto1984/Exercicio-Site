@@ -1,0 +1,83 @@
+p {
+	color: red;
+	font-size: 20px;
+	font-family: "Times New Roman", Times, serif;
+}
+.paragrafo {
+	color: blue;
+
+    .div {
+     font-size: 16px;
+    }
+    
+    .formatacao{
+       text-decoration: underline;
+    }
+#noticias{
+    background-color: chartreuse;
+    border: 1px red solid;
+    width: 250px;
+    height: 180px;
+    float: left;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-size: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+.clear {
+clear: both;
+}
+
+.texto1 {
+color: blue;
+font-size: 10px; /*px %, em */
+/* font-family 'Times New Roman', Times, serif;  */
+
+.texto2 {
+    color: black;
+    font-size: 20px; /*px %, em */
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif; 
+
+}
+.azul {
+	color: blue;
+}
+
+}
+
+#menu {
+	border: 1px red solid;
+ /* background-color: gray; */
+ border-color: red green yellow blue;
+ border-width: 1px 5px 8px 10px;
+ border-style: solid dotted dashed solid;
+}
+#rodape {
+	border: 1px red solid;
+ /* background-color: gray; */
+ border-color: red green yellow blue;
+ border-width: 1px 5px 8px 10px;
+ border-style: solid ;
+}
+</style>
+
+
+<tr>
+			<td colspan="3">
+				<div>
+				<p>A paisagem é responsável por registrar vários aspectos representativos da sociedade. 
+                    Nesse sentido, o conceito de paisagem amplia-se, na medida em que não se limita a uma divisão geográfica.</p>
+				
+                    <p class="texto2">Isso porque a paisagem tem importantes valores e várias funções. A paisagem que vemos 
+                    hoje já pode ter passado por um processo de modificação possivelmente em decorrência do uso dado a ela.</p>
+				
+                    <p>Por outro lado,<span class="formatação"></spa>n> o aumento da população em determinada extensão territorial resulta na iminente
+                     alteração para comportar as demandas populacionais. São exemplos: construção de casas, e outras obras, 
+                     e pavimento de ruas.</p>
+				</div>
+                    
+			</td>
+		</tr>
