@@ -35,14 +35,14 @@ font-size: 10px; /*px %, em */
 /* font-family 'Times New Roman', Times, serif;  */
 
 .texto2 {
-    color: black;
-    font-size: 20px; /*px %, em */
-    font-weight: bold;
-    font-style: italic;
-    font-family: 'Times New Roman', Times, serif; 
-
+color: blue;
+font-size: 50px; /*px %, em */
+font-weight: bold;
+font-style: italic;
+font-family: 'Times New Roman', Times, serif; 
 }
-.azul {
+
+</style> {
 	color: blue;
 }
 
@@ -52,8 +52,9 @@ font-size: 10px; /*px %, em */
 	border: 1px red solid;
  /* background-color: gray; */
  border-color: red green yellow blue;
- border-width: 1px 5px 8px 10px;
+ border-width: 1px 5px 8px 10px
  border-style: solid dotted dashed solid;
+
 }
 #rodape {
 	border: 1px red solid;
@@ -62,7 +63,106 @@ font-size: 10px; /*px %, em */
  border-width: 1px 5px 8px 10px;
  border-style: solid ;
 }
-</style>
+</.style>
+
+/* galeria de fotos */
+#galeria-fundo{
+background-color: teal;
+}
+
+
+    #galeria-de-fotos{
+
+    background-color: white;
+    width: 500px;
+    padding: 9px;
+    float: left;
+    margin: 1px;
+  }
+
+   #formato-texto{
+   
+    color: blue;
+    font-size: 50px; /*px %, em */
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif; 
+
+}
+
+
+
+/* fim de galeria de foto
+/* -------------------------*/
+/* formatacao dos links */
+
+a{
+text-decoration:nome;
+padding: 15px;
+
+}
+/* links não visitados */
+a:link{
+    color:#b9c941
+}
+/* links visitados */
+a:visited{
+    color: #c0c0c0;
+}
+/* links hover ,passa o cursor em cima */
+a:hover{
+    color: #fff;
+}
+/*link ativo, quando estive clicando */
+a:active{
+    color:#e4f371;
+}
+/* fim formataçao dos links */
+
+/* posicionamento de elementos */
+
+#conteudo-principal{
+
+    background: white;
+    padding:  10px;
+    width: 600px;
+    height: 200px;
+    margin: 30px;
+}
+.box{
+background: #1e6f44;
+width: 100px;
+height: 100px;
+color: white ;
+}
+
+#posicao-relativa{
+position: relative;
+left: 10px;
+top: 0;
+width: 660px;
+}
+
+#posicao-absoluta
+position: absolute;
+botton: 0;
+right: 30px;
+}
+
+#posicao-fixada{
+position: fixed;
+top: 0;
+left: 0;
+width:100% ;
+background: black;
+
+}
+
+
+
+
+
+
 
 
 <tr>
